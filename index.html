@@ -39,4 +39,66 @@
             background-color: white;
             padding: 20px;
             margin: 10px 0;
-            border-radius:
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .podcast h2 {
+            margin: 0;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Podcast</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Episodes</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Latest Episodes</h2>
+            <div class="podcast">
+                <h2>Episode 1: Introduction</h2>
+                <p>Description of your first episode goes here.</p>
+                <audio controls>
+                    <source src="yourpodcastfile.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="podcast">
+                <h2>Episode 2: Topic Discussion</h2>
+                <p>Description of your second episode goes here.</p>
+                <audio controls>
+                    <source src="yourpodcastfile2.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Podcast | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
